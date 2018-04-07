@@ -1,4 +1,6 @@
- function createParagraph() 
+ //test js script file
+ 
+function createParagraph() 
 {
   var para = document.createElement('p');
   para.textContent = 'You clicked the button!';
