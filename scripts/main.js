@@ -1,3 +1,5 @@
+//main js file for Mozilla js learning project
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() 
