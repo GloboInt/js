@@ -1,10 +1,13 @@
 var myImage = document.querySelector('img');
 
-myImage.onclick = function() {
+myImage.onclick = function() 
+{
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
+    if(mySrc === 'images/firefox-icon.png') 
+    {
       myImage.setAttribute ('src','images/firefox2.jpg');
-    } else {
+    } else 
+    {
       myImage.setAttribute ('src','images/firefox-icon.png');
     }
 }
@@ -23,7 +26,8 @@ if(!localStorage.getItem('name'))
 {
   setUserName();
 }
-else {
+else 
+{
   var storedName = localStorage.getItem('name');
   myHeading.textContext = 'Mozilla is cool, ' + storedName;
 }
